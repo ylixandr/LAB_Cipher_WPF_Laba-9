@@ -1,0 +1,22 @@
+﻿<Window x:Class="LAB_Cipher_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LAB_Cipher_WPF"
+        mc:Ignorable="d"
+        Title="Форма для регистрации" Height="450" Width="450">
+    <Grid Margin="0,0,0,0" >
+        <StackPanel Margin="80,54,80,110">
+            <Label Content="Логин" FontSize="14"/>
+            <TextBox Height="25" Margin="0 0 0 15" x:Name="Login"/>
+            <Label Content="Пароль"/>
+            <PasswordBox Height="25" x:Name="Password_1"/>
+            <Label Content="Пароль" />
+            <PasswordBox Height="25" x:Name="Password_2"/>
+        </StackPanel>
+
+        <Button Content ="Зарегистрироваться" Margin="245,264,25,110" Click="Button_Click"/>
+
+    </Grid>
+</Window>
